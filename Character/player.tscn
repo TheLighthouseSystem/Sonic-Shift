@@ -1,195 +1,344 @@
-[gd_scene load_steps=45 format=3 uid="uid://xxaoff7gwbrm"]
+[gd_scene load_steps=67 format=3 uid="uid://xxaoff7gwbrm"]
 
 [ext_resource type="Script" path="res://Character/player.gd" id="1_flj5s"]
-[ext_resource type="Texture2D" uid="uid://cf5vr3rdkcdr0" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png" id="1_uohqy"]
-[ext_resource type="Texture2D" uid="uid://bvqkoppprkbil" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png" id="2_c1ij0"]
-[ext_resource type="Texture2D" uid="uid://b1dop62ij8uuy" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/Jump-End-Sheet.png" id="3_5s4db"]
-[ext_resource type="Texture2D" uid="uid://bolynyyobgkop" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png" id="4_o4p5v"]
-[ext_resource type="Texture2D" uid="uid://cilbq1jmxocd0" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/Jump-All-Sheet.png" id="5_fhfe2"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_mgp67"]
-atlas = ExtResource("1_uohqy")
-region = Rect2(0, 0, 64, 80)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ie17q"]
-atlas = ExtResource("1_uohqy")
-region = Rect2(64, 0, 64, 80)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_binp2"]
-atlas = ExtResource("1_uohqy")
-region = Rect2(128, 0, 64, 80)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_lfwy1"]
-atlas = ExtResource("1_uohqy")
-region = Rect2(192, 0, 64, 80)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_fxc6u"]
-atlas = ExtResource("4_o4p5v")
-region = Rect2(128, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_g5u5s"]
-atlas = ExtResource("4_o4p5v")
-region = Rect2(192, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ti80p"]
-atlas = ExtResource("3_5s4db")
-region = Rect2(0, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_u858a"]
-atlas = ExtResource("3_5s4db")
-region = Rect2(64, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_pdv51"]
-atlas = ExtResource("3_5s4db")
-region = Rect2(128, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_r6pi2"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(256, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_v8igu"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(320, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_h081b"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(384, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_6hjgw"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(448, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_54t6i"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(512, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_h3j7h"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(576, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_qxo2b"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(640, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_fk7et"]
-atlas = ExtResource("4_o4p5v")
-region = Rect2(0, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_qlqmo"]
-atlas = ExtResource("4_o4p5v")
-region = Rect2(64, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_mfri5"]
-atlas = ExtResource("4_o4p5v")
-region = Rect2(128, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_3nmbs"]
-atlas = ExtResource("4_o4p5v")
-region = Rect2(192, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_3k17f"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(256, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_fcfnc"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(320, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_m5i4p"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(384, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_axhnn"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(448, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_sbc3u"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(512, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_0vs6r"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(576, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ypsd5"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(640, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_b3ssj"]
-atlas = ExtResource("5_fhfe2")
-region = Rect2(704, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ww55j"]
-atlas = ExtResource("2_c1ij0")
-region = Rect2(0, 0, 80, 80)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_8t47p"]
-atlas = ExtResource("2_c1ij0")
-region = Rect2(80, 0, 80, 80)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_x3upv"]
-atlas = ExtResource("2_c1ij0")
-region = Rect2(160, 0, 80, 80)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_141ha"]
-atlas = ExtResource("2_c1ij0")
-region = Rect2(240, 0, 80, 80)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_yoikr"]
-atlas = ExtResource("2_c1ij0")
-region = Rect2(320, 0, 80, 80)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_y1t1k"]
-atlas = ExtResource("2_c1ij0")
-region = Rect2(400, 0, 80, 80)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_len7l"]
-atlas = ExtResource("2_c1ij0")
-region = Rect2(480, 0, 80, 80)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_v7gh8"]
-atlas = ExtResource("2_c1ij0")
-region = Rect2(560, 0, 80, 80)
+[ext_resource type="Texture2D" uid="uid://cy1b8w4e7mktd" path="res://Art/Sonic the Hedgehog/Character/Idle/Layer 2.png" id="2_g2qa6"]
+[ext_resource type="Texture2D" uid="uid://blrkml8osq7cj" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 8.png" id="2_pns6b"]
+[ext_resource type="Texture2D" uid="uid://dsm2envtc4wyy" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 9.png" id="3_0buj6"]
+[ext_resource type="Texture2D" uid="uid://dtyok5uignnak" path="res://Art/Sonic the Hedgehog/Character/Idle/Layer 3.png" id="3_2sei3"]
+[ext_resource type="Texture2D" uid="uid://d4g653aaby31f" path="res://Art/Sonic the Hedgehog/Character/Idle/Layer 4.png" id="4_7g7t5"]
+[ext_resource type="Texture2D" uid="uid://dar5tu25qkcpl" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 10.png" id="4_7rmcj"]
+[ext_resource type="Texture2D" uid="uid://dhkoof23rju1h" path="res://Art/Sonic the Hedgehog/Character/Idle/Layer 5.png" id="5_atcww"]
+[ext_resource type="Texture2D" uid="uid://chsrvkolc0lvo" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 11.png" id="5_fpw3v"]
+[ext_resource type="Texture2D" uid="uid://cp28xpwyolkob" path="res://Art/Sonic the Hedgehog/Character/Idle/Layer 6.png" id="6_atl8x"]
+[ext_resource type="Texture2D" uid="uid://bnbek7i451qct" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 12.png" id="6_c7540"]
+[ext_resource type="Texture2D" uid="uid://bmjv8kv2edcw8" path="res://Art/Sonic the Hedgehog/Character/Idle/Layer 7.png" id="7_555gd"]
+[ext_resource type="Texture2D" uid="uid://b7qs6qf1pr5jp" path="res://Art/Sonic the Hedgehog/Character/Bored/Background.png" id="7_d0moq"]
+[ext_resource type="Texture2D" uid="uid://vrgl0tfgkup" path="res://Art/Sonic the Hedgehog/Character/Idle/Layer 8.png" id="8_th4ie"]
+[ext_resource type="Texture2D" uid="uid://dhi4x4vs6mgpq" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 1.png" id="8_u0kyv"]
+[ext_resource type="Texture2D" uid="uid://7mj8uhwnmbq0" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 2.png" id="9_eaq43"]
+[ext_resource type="Texture2D" uid="uid://b7i4w5cd6f004" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 3.png" id="10_j2v8d"]
+[ext_resource type="Texture2D" uid="uid://c2q5filuqtuyx" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 4.png" id="11_fbuf0"]
+[ext_resource type="Texture2D" uid="uid://ngwmhn67nm4m" path="res://Art/Sonic the Hedgehog/Character/Fall/Layer 2.png" id="12_kpvn3"]
+[ext_resource type="Texture2D" uid="uid://ctci6q8b86xft" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 5.png" id="12_u3426"]
+[ext_resource type="Texture2D" uid="uid://bqtn8vgx2ljax" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 6.png" id="13_7sreg"]
+[ext_resource type="Texture2D" uid="uid://y116umrcvawd" path="res://Art/Sonic the Hedgehog/Character/Fall/Layer 3.png" id="13_gqj6d"]
+[ext_resource type="Texture2D" uid="uid://ro1wj2fyw6yv" path="res://Art/Sonic the Hedgehog/Character/Fall/Layer 4.png" id="14_tvfjf"]
+[ext_resource type="Texture2D" uid="uid://c34vgrxygsd3v" path="res://Art/Sonic the Hedgehog/Character/Bored/Layer 7.png" id="14_xabv1"]
+[ext_resource type="Texture2D" uid="uid://bxm453qs4ujyx" path="res://Art/Sonic the Hedgehog/Character/Dead/Frame 1.png" id="15_nnu4c"]
+[ext_resource type="Texture2D" uid="uid://dhg866por8q6c" path="res://Art/Sonic the Hedgehog/Character/Idle/Layer 1.png" id="15_r6ou1"]
+[ext_resource type="Texture2D" uid="uid://cnkwaro06jkqm" path="res://Art/Sonic the Hedgehog/Character/Dead/Frame 2.png" id="16_k64yd"]
+[ext_resource type="Texture2D" uid="uid://nmem4pihqi3o" path="res://Art/Sonic the Hedgehog/Character/Dead/Frame 3.png" id="17_0dei2"]
+[ext_resource type="Texture2D" uid="uid://blnjug2op4ifc" path="res://Art/Sonic the Hedgehog/Character/Dead/Frame 4.png" id="18_wl7n8"]
+[ext_resource type="Texture2D" uid="uid://77lllgslnf7j" path="res://Art/Sonic the Hedgehog/Character/Dead/Frame 5.png" id="19_pcvkn"]
+[ext_resource type="Texture2D" uid="uid://dkyrxcrfen4ij" path="res://Art/Sonic the Hedgehog/Character/Jump-End/Layer 1.png" id="21_uy25t"]
+[ext_resource type="Texture2D" uid="uid://dam28ervwjhbb" path="res://Art/Sonic the Hedgehog/Character/Jump-End/Layer 3.png" id="22_71qoy"]
+[ext_resource type="Texture2D" uid="uid://dtkdcq0stito2" path="res://Art/Sonic the Hedgehog/Character/Jog/Layer 1.png" id="23_4twh0"]
+[ext_resource type="Texture2D" uid="uid://bmpxlmp0oovwy" path="res://Art/Sonic the Hedgehog/Character/Jump-End/Layer 2.png" id="23_ihlfn"]
+[ext_resource type="Texture2D" uid="uid://dmitaj62keq0e" path="res://Art/Sonic the Hedgehog/Character/Jog/Layer 2.png" id="24_nrvws"]
+[ext_resource type="Texture2D" uid="uid://c76tagp3xthxw" path="res://Art/Sonic the Hedgehog/Character/Run/Layer 1.png" id="24_x4nds"]
+[ext_resource type="Texture2D" uid="uid://qeagkyfr7j1w" path="res://Art/Sonic the Hedgehog/Character/Jump/Layer 2.png" id="25_bk4e5"]
+[ext_resource type="Texture2D" uid="uid://cv0cxpq8h7jpp" path="res://Art/Sonic the Hedgehog/Character/Run/Layer 2.png" id="25_h50qj"]
+[ext_resource type="Texture2D" uid="uid://dpxtrwaevxfga" path="res://Art/Sonic the Hedgehog/Character/Jog/Layer 3.png" id="25_u32vr"]
+[ext_resource type="Texture2D" uid="uid://bg6tx7njl5um6" path="res://Art/Sonic the Hedgehog/Character/Jump/Layer 3.png" id="26_aakqx"]
+[ext_resource type="Texture2D" uid="uid://b740cfetxjlhs" path="res://Art/Sonic the Hedgehog/Character/Jog/Layer 4.png" id="26_cvvjr"]
+[ext_resource type="Texture2D" uid="uid://cis74nwoul1dr" path="res://Art/Sonic the Hedgehog/Character/Run/Layer 3.png" id="26_jaj2r"]
+[ext_resource type="Texture2D" uid="uid://bx1dwpxbv7g7e" path="res://Art/Sonic the Hedgehog/Character/Run/Layer 4.png" id="27_3us1m"]
+[ext_resource type="Texture2D" uid="uid://5cg3mdkmkvva" path="res://Art/Sonic the Hedgehog/Character/Jump/Layer 4.png" id="27_6162e"]
+[ext_resource type="Texture2D" uid="uid://crni6baompcxv" path="res://Art/Sonic the Hedgehog/Character/Jog/Layer 5.png" id="27_c8ayv"]
+[ext_resource type="Texture2D" uid="uid://ck6ju13phkt21" path="res://Art/Sonic the Hedgehog/Character/Jog/Layer 6.png" id="28_21y6t"]
+[ext_resource type="Texture2D" uid="uid://ct1osnbyrw4yp" path="res://Art/Sonic the Hedgehog/Character/Run/Layer 5.png" id="28_fcho0"]
+[ext_resource type="Texture2D" uid="uid://dltaavjav8kvl" path="res://Art/Sonic the Hedgehog/Character/Run/Layer 6.png" id="29_3387u"]
+[ext_resource type="Texture2D" uid="uid://dh4ni6tx6hsq" path="res://Art/Sonic the Hedgehog/Character/Jog/Layer 7.png" id="29_mtw2r"]
+[ext_resource type="Texture2D" uid="uid://clu213h3ddm73" path="res://Art/Sonic the Hedgehog/Character/Run/Layer 7.png" id="30_0va0o"]
+[ext_resource type="Texture2D" uid="uid://5shve65i5us7" path="res://Art/Sonic the Hedgehog/Character/Jog/Layer 8.png" id="30_okxay"]
+[ext_resource type="Texture2D" uid="uid://dhbea1ina6sv" path="res://Art/Sonic the Hedgehog/Character/Jump/Layer 1.png" id="38_y7a5a"]
+[ext_resource type="Theme" uid="uid://4k6gwjfng38k" path="res://Character/GUI.tres" id="46_faryn"]
+[ext_resource type="Script" path="res://Character/timer.gd" id="47_4oh46"]
+[ext_resource type="Texture2D" uid="uid://bf4ekyavihtos" path="res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 8.png" id="48_onw0k"]
+[ext_resource type="Texture2D" uid="uid://cd3runc0owue4" path="res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 9.png" id="49_mw3sl"]
+[ext_resource type="Texture2D" uid="uid://gj5s7uvsi0l6" path="res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 10.png" id="50_vs6hm"]
+[ext_resource type="Texture2D" uid="uid://ms6ogvo8m5hy" path="res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 11.png" id="51_5y34f"]
+[ext_resource type="Texture2D" uid="uid://caixfgolpslsb" path="res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 12.png" id="52_cl34y"]
+[ext_resource type="Texture2D" uid="uid://dlwxwlcgcp5am" path="res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 13.png" id="53_c154a"]
+[ext_resource type="Texture2D" uid="uid://c3rxgoaw7go1e" path="res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 14.png" id="54_pwa4b"]
+[ext_resource type="Texture2D" uid="uid://dpwvo4tjhuxqp" path="res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 15.png" id="55_6n3p8"]
+[ext_resource type="AudioStream" uid="uid://duwrvp8lmogj0" path="res://Sound/FX/ring.ogg" id="61_g87jl"]
+[ext_resource type="AudioStream" uid="uid://6awa70y4vryu" path="res://Sound/FX/jump.ogg" id="61_kqcqg"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_q1ej8"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_mgp67")
+"texture": ExtResource("2_pns6b")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_ie17q")
+"texture": ExtResource("3_0buj6")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_binp2")
+"texture": ExtResource("4_7rmcj")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_lfwy1")
+"texture": ExtResource("5_fpw3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c7540")
 }],
-"loop": true,
-"name": &"idle",
+"loop": false,
+"name": &"bored_end",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_d0moq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_u0kyv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_eaq43")
+}],
+"loop": false,
+"name": &"bored_enter",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_fxc6u")
+"texture": ExtResource("10_j2v8d")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_g5u5s")
+"texture": ExtResource("11_fbuf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_u3426")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7sreg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_xabv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_j2v8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_fbuf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_u3426")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7sreg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_xabv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_j2v8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_fbuf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_u3426")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7sreg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_xabv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_j2v8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_fbuf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_u3426")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7sreg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_xabv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_j2v8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_fbuf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_u3426")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7sreg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_xabv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_j2v8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_fbuf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_u3426")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7sreg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_xabv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pns6b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_0buj6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7rmcj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_fpw3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c7540")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c7540")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c7540")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c7540")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c7540")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c7540")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c7540")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c7540")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c7540")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_u0kyv")
+}],
+"loop": true,
+"name": &"bored_loop",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_nnu4c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_k64yd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_0dei2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_wl7n8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_pcvkn")
 }],
 "loop": false,
+"name": &"death",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_r6ou1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_g2qa6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_2sei3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7g7t5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_atcww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_atl8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_555gd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_th4ie")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_4twh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_nrvws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_u32vr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_cvvjr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_c8ayv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_21y6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_mtw2r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_okxay")
+}],
+"loop": true,
+"name": &"jog",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_kpvn3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_gqj6d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_tvfjf")
+}],
+"loop": true,
 "name": &"jump_double",
 "speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_ti80p")
+"texture": ExtResource("21_uy25t")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_u858a")
+"texture": ExtResource("23_ihlfn")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_pdv51")
+"texture": ExtResource("22_71qoy")
 }],
 "loop": false,
 "name": &"jump_end",
@@ -197,25 +346,16 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_r6pi2")
+"texture": ExtResource("38_y7a5a")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_v8igu")
+"texture": ExtResource("25_bk4e5")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_h081b")
+"texture": ExtResource("26_aakqx")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_6hjgw")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_54t6i")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_h3j7h")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_qxo2b")
+"texture": ExtResource("27_6162e")
 }],
 "loop": true,
 "name": &"jump_loop",
@@ -223,92 +363,231 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_fk7et")
+"texture": ExtResource("24_x4nds")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_qlqmo")
+"texture": ExtResource("25_h50qj")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_mfri5")
+"texture": ExtResource("26_jaj2r")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_3nmbs")
+"texture": ExtResource("27_3us1m")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_3k17f")
+"texture": ExtResource("28_fcho0")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_fcfnc")
+"texture": ExtResource("29_3387u")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_m5i4p")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_axhnn")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_sbc3u")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_0vs6r")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ypsd5")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_b3ssj")
-}],
-"loop": false,
-"name": &"jump_start",
-"speed": 10.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ww55j")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_8t47p")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_x3upv")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_141ha")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_yoikr")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_y1t1k")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_len7l")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_v7gh8")
+"texture": ExtResource("30_0va0o")
 }],
 "loop": true,
 "name": &"run",
 "speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("48_onw0k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_mw3sl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_vs6hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_5y34f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_cl34y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_c154a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_pwa4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_6n3p8")
+}],
+"loop": true,
+"name": &"run_fast",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_4twh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_nrvws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_u32vr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_cvvjr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_c8ayv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_21y6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_mtw2r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_okxay")
+}],
+"loop": true,
+"name": &"slow_jog",
+"speed": 4.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ry2ya"]
-radius = 8.0
-height = 44.0
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_a7a78"]
+height = 37.51
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Sonic" type="CharacterBody2D" groups=["player"]]
+position = Vector2(-11, -11)
+floor_stop_on_slope = false
+floor_constant_speed = true
+floor_max_angle = 2.00887
+floor_snap_length = 13.0
+safe_margin = 0.001
 script = ExtResource("1_flj5s")
 speed = 100.0
+jump_velocity = -250.0
+double_jump_velocity = 1000.0
+acceleration = 1000.0
+friction = 50.0
+rotation_speed = 1.0
+momentum_factor = 0.5
+lives = 300
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-32, -40)
+position = Vector2(-13, -13)
 sprite_frames = SubResource("SpriteFrames_q1ej8")
 animation = &"idle"
 autoplay = "idle"
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 2)
-shape = SubResource("CapsuleShape2D_ry2ya")
+position = Vector2(11, 11)
+shape = SubResource("CapsuleShape2D_a7a78")
+
+[node name="JumpSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("61_kqcqg")
+
+[node name="RingCollectSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("61_g87jl")
+max_distance = 200.0
+max_polyphony = 10
+
+[node name="GUI" type="CanvasLayer" parent="."]
+
+[node name="RingCountLabel" type="Label" parent="GUI"]
+z_index = 4095
+offset_left = 5.0
+offset_top = 15.0
+offset_right = 37.575
+offset_bottom = 38.0
+theme = ExtResource("46_faryn")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+text = "RINGS: 0"
+
+[node name="LivesLabel" type="Label" parent="GUI"]
+z_index = 4095
+offset_left = 5.0
+offset_top = 25.0
+offset_right = 25.0
+offset_bottom = 48.0
+theme = ExtResource("46_faryn")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+text = "Lives: 3"
+
+[node name="TimerLabel" type="Label" parent="GUI"]
+z_index = 4095
+offset_left = 5.0
+offset_top = 3.0
+offset_right = 45.0
+offset_bottom = 26.0
+theme = ExtResource("46_faryn")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+text = "00:00"
+
+[node name="Timer" type="Timer" parent="GUI"]
+autostart = true
+script = ExtResource("47_4oh46")
+
+[node name="GameOverScreen" type="Node2D" parent="GUI"]
+
+[node name="ColorRect" type="ColorRect" parent="GUI/GameOverScreen"]
+visible = false
+offset_right = 1e+06
+offset_bottom = 1e+08
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="GUI/GameOverScreen"]
+visible = false
+offset_right = 40.0
+offset_bottom = 23.0
+text = "jhgkdf"
+
+[node name="Button" type="Button" parent="GUI/GameOverScreen"]
+visible = false
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Start Over"
+
+[node name="BoredTimer" type="Timer" parent="."]
+wait_time = 3.0
+autostart = true
+
+[node name="FadeRect" type="ColorRect" parent="."]
+visible = false
+z_index = 4096
+custom_minimum_size = Vector2(1e+07, 1e+08)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Pause" type="Node2D" parent="."]
+
+[node name="PauseScreen" type="ColorRect" parent="Pause"]
+visible = false
+z_index = 4094
+y_sort_enabled = true
+offset_left = -2138.0
+offset_top = -1522.0
+offset_right = 997862.0
+offset_bottom = 998478.0
+mouse_filter = 1
+color = Color(0, 0, 0, 0.501961)
+
+[node name="Label" type="Label" parent="Pause/PauseScreen"]
+z_index = 4094
+layout_mode = 0
+offset_left = 2109.0
+offset_top = 1514.0
+offset_right = 2190.0
+offset_bottom = 1551.0
+mouse_filter = 1
+theme = ExtResource("46_faryn")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 16
+theme_override_font_sizes/font_size = 36
+text = "Paused"
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

@@ -1,76 +1,179 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728258979
+::res://::1729559231
+checkkpoint.txt::TextFile::-1::1728600735::0::1::::<><>::
+dialogue.gd::GDScript::-1::1729390426::0::1::::<>Control<>::
+dialogue.tscn::PackedScene::6837833189281438077::1729390456::0::1::::<><>::res://dialogue.gd
+dialogue.txt::TextFile::-1::1729390456::0::1::::<><>::
+GUI.tscn::PackedScene::6422863660724092601::1728872035::0::1::::<><>::uid://4k6gwjfng38k::::res://Character/GUI.tres
 icon.svg::CompressedTexture2D::1701750855830309230::1728258973::1728258980::1::::<><>::
 README.md::TextFile::-1::1728258973::0::1::::<><>::
-::res://Art/::1728258973
+ring.gd::GDScript::-1::1729556444::0::1::::<>Area2D<>::
+Ring.tscn::PackedScene::441837778154924682::1729556825::0::1::::<><>::res://ring.gd<>uid://b73jj3wuvlydm::::res://Art/Rings/small1.png<>uid://cmay5p6gddsky::::res://Art/Rings/small2.png<>uid://dxgjwubryp0gc::::res://Art/Rings/small3.png<>uid://c7rpp55362a02::::res://Art/Rings/small4.png
+::res://Art/::1728432280
 ::res://Art/Legacy-Fantasy - High Forest 2.3/::1728258973
 Credit.txt::TextFile::-1::1728258973::0::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/::1728258980
 Buildings.png::CompressedTexture2D::997913607088430090::1728258973::1728258980::1::::<><>::
 Hive.png::CompressedTexture2D::7632717419181089436::1728258973::1728258980::1::::<><>::
 Interior-01.png::CompressedTexture2D::595940038258755958::1728258973::1728258980::1::::<><>::
 Props-Rocks.png::CompressedTexture2D::1300457191772675777::1728258973::1728258980::1::::<><>::
 Tiles.png::CompressedTexture2D::5689280660012694011::1728258973::1728258980::1::::<><>::
 Tree-Assets.png::CompressedTexture2D::3305120618442832484::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Background/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Background/::1728258980
 Background.png::CompressedTexture2D::5931952589145511003::1728258973::1728258980::1::::<><>::
 ::res://Art/Legacy-Fantasy - High Forest 2.3/Character/::1728258973
-::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/::1728258980
 Attack-01-Sheet.png::CompressedTexture2D::6341609524455420751::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Dead/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Dead/::1728258980
 Dead-Sheet.png::CompressedTexture2D::2488385203063785259::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/::1728258980
 Idle-Sheet.png::CompressedTexture2D::5187023830607867703::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/::1728258980
 Jump-All-Sheet.png::CompressedTexture2D::5357150941567220519::1728258973::1728258980::1::::<><>::
 ::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump/::1728258973
-::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/::1728258980
 Jump-End-Sheet.png::CompressedTexture2D::4218402246661831272::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/::1728258980
 Jump-Start-Sheet.png::CompressedTexture2D::3393254371340760339::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Run/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Run/::1728258980
 Run-Sheet.png::CompressedTexture2D::3894049426926032671::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/HUD/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/HUD/::1728258980
 Base-01.png::CompressedTexture2D::1250356609254411910::1728258973::1728258980::1::::<><>::
 ::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/::1728258973
 ::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/::1728258973
-::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Hit-Vanish/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Hit-Vanish/::1728258980
 Hit-Sheet-Black.png::CompressedTexture2D::6193030836201351527::1728258973::1728258980::1::::<><>::
 Hit-Sheet-White.png::CompressedTexture2D::4665642629827363694::1728258973::1728258980::1::::<><>::
 Hit-Sheet.png::CompressedTexture2D::8529473215053149067::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/::1728258980
 Idle-Sheet-export-Back.png::CompressedTexture2D::8965414229203550015::1728258973::1728258980::1::::<><>::
 Idle-Sheet-White.png::CompressedTexture2D::2625431362401288147::1728258973::1728258980::1::::<><>::
 Idle-Sheet.png::CompressedTexture2D::4292870332630668655::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Run/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Run/::1728258980
 Run-Sheet-Black.png::CompressedTexture2D::1785095167410539697::1728258973::1728258980::1::::<><>::
 Run-Sheet-White.png::CompressedTexture2D::7142591535767447481::1728258973::1728258980::1::::<><>::
 Run-Sheet.png::CompressedTexture2D::4178098077550704412::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Walk/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Walk/::1728258980
 Walk-Base-Sheet-White.png::CompressedTexture2D::8151296800094190091::1728258973::1728258980::1::::<><>::
 Walk-Base-Sheet.png::CompressedTexture2D::3987109924913138958::1728258973::1728258980::1::::<><>::
 Walk-Base-SheetBlack.png::CompressedTexture2D::3182201092353896244::1728258973::1728258980::1::::<><>::
 ::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/::1728258973
-::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Attack/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Attack/::1728258980
 Attack-Sheet.png::CompressedTexture2D::4354121971477793947::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/::1728258980
 Fly-Sheet.png::CompressedTexture2D::4767564822387117843::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/::1728258980
 Hit-Sheet.png::CompressedTexture2D::5452094508903461042::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Snail/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Snail/::1728258980
 all.png::CompressedTexture2D::8054876573860061089::1728258973::1728258980::1::::<><>::
 Dead-Sheet.png::CompressedTexture2D::6404296358114744745::1728258973::1728258980::1::::<><>::
 Hide-Sheet.png::CompressedTexture2D::5014819080677533809::1728258973::1728258980::1::::<><>::
 walk-Sheet.png::CompressedTexture2D::8229153007894133143::1728258973::1728258980::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Trees/::1728258973
+::res://Art/Legacy-Fantasy - High Forest 2.3/Trees/::1728258980
 Background.png::CompressedTexture2D::6370310305224492402::1728258973::1728258980::1::::<><>::
 Dark-Tree.png::CompressedTexture2D::7657799648740539260::1728258973::1728258980::1::::<><>::
 Golden-Tree.png::CompressedTexture2D::6878549809411101730::1728258973::1728258980::1::::<><>::
 Green-Tree.png::CompressedTexture2D::725885093742723659::1728258973::1728258980::1::::<><>::
 Red-Tree.png::CompressedTexture2D::1209529535376390761::1728258973::1728258980::1::::<><>::
 Yellow-Tree.png::CompressedTexture2D::1752902837429214101::1728258973::1728258980::1::::<><>::
-::res://Character/::1728258973
-player.gd::GDScript::-1::1728258973::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1661849364936379042::1728258973::0::1::::<><>::res://Character/player.gd<>uid://cf5vr3rdkcdr0::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png<>uid://bvqkoppprkbil::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png<>uid://b1dop62ij8uuy::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/Jump-End-Sheet.png<>uid://bolynyyobgkop::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png<>uid://cilbq1jmxocd0::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/Jump-All-Sheet.png
-::res://Levels/::1728258973
-test_level.tscn::PackedScene::8026915360369246657::1728258973::0::1::::<><>::uid://cnb6vef35n3ad::::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png<>uid://cqrqnlx2jpsop::::res://Art/Legacy-Fantasy - High Forest 2.3/Background/Background.png<>uid://xxaoff7gwbrm::::res://Character/player.tscn
+::res://Art/Rings/::1728432373
+small1.png::CompressedTexture2D::4690830287880586234::1728432266::1728432373::1::::<><>::
+small2.png::CompressedTexture2D::5616619108702082428::1728432266::1728432373::1::::<><>::
+small3.png::CompressedTexture2D::8786578514496112778::1728432266::1728432373::1::::<><>::
+small4.png::CompressedTexture2D::7054917950781642165::1728432266::1728432373::1::::<><>::
+::res://Art/Sonic the Hedgehog/::1728266556
+::res://Art/Sonic the Hedgehog/Character/::1728527000
+::res://Art/Sonic the Hedgehog/Character/Attack-01/::1728266749
+Attack-01-Sheet.png::CompressedTexture2D::6341609524455420751::1728258973::1728266749::1::::<><>::
+::res://Art/Sonic the Hedgehog/Character/Bored/::1728525588
+Background.png::CompressedTexture2D::4666642838955635505::1728525538::1728525588::1::::<><>::
+Layer 1.png::CompressedTexture2D::7668902401105838198::1728525538::1728525588::1::::<><>::
+Layer 2.png::CompressedTexture2D::2271421975897572205::1728525538::1728525588::1::::<><>::
+Layer 3.png::CompressedTexture2D::4650780361366822859::1728525538::1728525588::1::::<><>::
+Layer 4.png::CompressedTexture2D::6702801066541061615::1728525538::1728525588::1::::<><>::
+Layer 5.png::CompressedTexture2D::6111100139013048193::1728525538::1728525588::1::::<><>::
+Layer 6.png::CompressedTexture2D::3549514724674298659::1728525538::1728525588::1::::<><>::
+Layer 7.png::CompressedTexture2D::6799282645257001609::1728525538::1728525588::1::::<><>::
+Layer 8.png::CompressedTexture2D::3194221614381210093::1728525538::1728525588::1::::<><>::
+Layer 9.png::CompressedTexture2D::8449080987704473928::1728525538::1728525588::1::::<><>::
+Layer 10.png::CompressedTexture2D::7196213006327068385::1728525538::1728525588::1::::<><>::
+Layer 11.png::CompressedTexture2D::5302392310338759116::1728525538::1728525588::1::::<><>::
+Layer 12.png::CompressedTexture2D::3301202449116094439::1728525538::1728525588::1::::<><>::
+::res://Art/Sonic the Hedgehog/Character/Dead/::1728605991
+Frame 1.png::CompressedTexture2D::4027352483252000923::1728605950::1728605991::1::::<><>::
+Frame 2.png::CompressedTexture2D::5707276801763975212::1728605950::1728605991::1::::<><>::
+Frame 3.png::CompressedTexture2D::937493344563760150::1728605950::1728605991::1::::<><>::
+Frame 4.png::CompressedTexture2D::3185917400834340772::1728605950::1728605991::1::::<><>::
+Frame 5.png::CompressedTexture2D::2312791203059067317::1728605950::1728605991::1::::<><>::
+::res://Art/Sonic the Hedgehog/Character/Fall/::1728268196
+Layer 2.png::CompressedTexture2D::926198826384195742::1728268180::1728268196::1::::<><>::
+Layer 3.png::CompressedTexture2D::1739841140121868119::1728268180::1728268196::1::::<><>::
+Layer 4.png::CompressedTexture2D::1223730074361244241::1728268180::1728268196::1::::<><>::
+::res://Art/Sonic the Hedgehog/Character/Idle/::1728526411
+Layer 1.png::CompressedTexture2D::7665030895498284536::1728526386::1728526411::1::::<><>::
+Layer 2.png::CompressedTexture2D::6511168285034181073::1728526386::1728526411::1::::<><>::
+Layer 3.png::CompressedTexture2D::8543264649105752582::1728526386::1728526411::1::::<><>::
+Layer 4.png::CompressedTexture2D::9209062054355625145::1728526386::1728526411::1::::<><>::
+Layer 5.png::CompressedTexture2D::7672103078721283939::1728526386::1728526411::1::::<><>::
+Layer 6.png::CompressedTexture2D::5883457778282960317::1728526386::1728526411::1::::<><>::
+Layer 7.png::CompressedTexture2D::3248600754089601933::1728526386::1728526411::1::::<><>::
+Layer 8.png::CompressedTexture2D::44395453722879359::1728526386::1728526411::1::::<><>::
+::res://Art/Sonic the Hedgehog/Character/Jog/::1728526103
+Layer 1.png::CompressedTexture2D::8513680460145903027::1728526084::1728526103::1::::<><>::
+Layer 2.png::CompressedTexture2D::8019197341470117366::1728526084::1728526103::1::::<><>::
+Layer 3.png::CompressedTexture2D::8260760531076527720::1728526084::1728526103::1::::<><>::
+Layer 4.png::CompressedTexture2D::4693852401075186116::1728526084::1728526103::1::::<><>::
+Layer 5.png::CompressedTexture2D::5993429768764788003::1728526084::1728526103::1::::<><>::
+Layer 6.png::CompressedTexture2D::5539309092508304156::1728526084::1728526103::1::::<><>::
+Layer 7.png::CompressedTexture2D::226801652274480664::1728526084::1728526103::1::::<><>::
+Layer 8.png::CompressedTexture2D::2143286888692709316::1728526084::1728526103::1::::<><>::
+::res://Art/Sonic the Hedgehog/Character/Jump/::1728526807
+Layer 1.png::CompressedTexture2D::225085075906708677::1728526792::1728526807::1::::<><>::
+Layer 2.png::CompressedTexture2D::1131290286548157918::1728526792::1728526807::1::::<><>::
+Layer 3.png::CompressedTexture2D::2872745853274007047::1728526792::1728526807::1::::<><>::
+Layer 4.png::CompressedTexture2D::2110209004220450222::1728526792::1728526807::1::::<><>::
+::res://Art/Sonic the Hedgehog/Character/Jump-End/::1728527025
+Layer 1.png::CompressedTexture2D::7911768947235346709::1728526984::1728527025::1::::<><>::
+Layer 2.png::CompressedTexture2D::3261069262834406408::1728526984::1728527025::1::::<><>::
+Layer 3.png::CompressedTexture2D::7185733111470557383::1728526984::1728527025::1::::<><>::
+::res://Art/Sonic the Hedgehog/Character/Jump-Start/::1728266749
+Jump-Start-Sheet.png::CompressedTexture2D::3393254371340760339::1728258973::1728266749::1::::<><>::
+::res://Art/Sonic the Hedgehog/Character/Run/::1728527293
+Layer 1.png::CompressedTexture2D::7084034036657504648::1728527262::1728527293::1::::<><>::
+Layer 2.png::CompressedTexture2D::6298579848958836929::1728527262::1728527293::1::::<><>::
+Layer 3.png::CompressedTexture2D::5373506365307840183::1728527262::1728527293::1::::<><>::
+Layer 4.png::CompressedTexture2D::4054660170873125132::1728527262::1728527293::1::::<><>::
+Layer 5.png::CompressedTexture2D::6160986085765813427::1728527262::1728527293::1::::<><>::
+Layer 6.png::CompressedTexture2D::7970563625347760277::1728527262::1728527293::1::::<><>::
+Layer 7.png::CompressedTexture2D::5587893474675744404::1728527262::1728527293::1::::<><>::
+::res://Art/Sonic the Hedgehog/Character/Run-Fast/::1728528219
+Layer 8.png::CompressedTexture2D::2797493844186646930::1728528204::1728528126::1::::<><>::
+Layer 9.png::CompressedTexture2D::5042279067217743781::1728528204::1728528219::1::::<><>::
+Layer 10.png::CompressedTexture2D::441567828309848953::1728528204::1728528219::1::::<><>::
+Layer 11.png::CompressedTexture2D::881332499381588718::1728528204::1728528126::1::::<><>::
+Layer 12.png::CompressedTexture2D::4790762146509751665::1728528204::1728528126::1::::<><>::
+Layer 13.png::CompressedTexture2D::7978192001108880732::1728528204::1728528126::1::::<><>::
+Layer 14.png::CompressedTexture2D::6774631353036680096::1728528204::1728528126::1::::<><>::
+Layer 15.png::CompressedTexture2D::8258812627149392763::1728528204::1728528219::1::::<><>::
+::res://Character/::1729559228
+GUI.tres::Theme::2058014354244488380::1728439537::0::1::::<><>::uid://6mcxh74r0hpl::::res://Character/PixgamerRegular-OVD6A.ttf
+PixgamerRegular-OVD6A.ttf::FontFile::2200789611511595293::1670136792::1728439492::1::::<><>::
+player.gd::GDScript::-1::1729557250::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::1661849364936379042::1729559228::0::1::::<><>::res://Character/player.gd<>uid://cy1b8w4e7mktd::::res://Art/Sonic the Hedgehog/Character/Idle/Layer 2.png<>uid://blrkml8osq7cj::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 8.png<>uid://dsm2envtc4wyy::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 9.png<>uid://dtyok5uignnak::::res://Art/Sonic the Hedgehog/Character/Idle/Layer 3.png<>uid://d4g653aaby31f::::res://Art/Sonic the Hedgehog/Character/Idle/Layer 4.png<>uid://dar5tu25qkcpl::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 10.png<>uid://dhkoof23rju1h::::res://Art/Sonic the Hedgehog/Character/Idle/Layer 5.png<>uid://chsrvkolc0lvo::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 11.png<>uid://cp28xpwyolkob::::res://Art/Sonic the Hedgehog/Character/Idle/Layer 6.png<>uid://bnbek7i451qct::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 12.png<>uid://bmjv8kv2edcw8::::res://Art/Sonic the Hedgehog/Character/Idle/Layer 7.png<>uid://b7qs6qf1pr5jp::::res://Art/Sonic the Hedgehog/Character/Bored/Background.png<>uid://vrgl0tfgkup::::res://Art/Sonic the Hedgehog/Character/Idle/Layer 8.png<>uid://dhi4x4vs6mgpq::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 1.png<>uid://7mj8uhwnmbq0::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 2.png<>uid://b7i4w5cd6f004::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 3.png<>uid://c2q5filuqtuyx::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 4.png<>uid://ngwmhn67nm4m::::res://Art/Sonic the Hedgehog/Character/Fall/Layer 2.png<>uid://ctci6q8b86xft::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 5.png<>uid://bqtn8vgx2ljax::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 6.png<>uid://y116umrcvawd::::res://Art/Sonic the Hedgehog/Character/Fall/Layer 3.png<>uid://ro1wj2fyw6yv::::res://Art/Sonic the Hedgehog/Character/Fall/Layer 4.png<>uid://c34vgrxygsd3v::::res://Art/Sonic the Hedgehog/Character/Bored/Layer 7.png<>uid://bxm453qs4ujyx::::res://Art/Sonic the Hedgehog/Character/Dead/Frame 1.png<>uid://dhg866por8q6c::::res://Art/Sonic the Hedgehog/Character/Idle/Layer 1.png<>uid://cnkwaro06jkqm::::res://Art/Sonic the Hedgehog/Character/Dead/Frame 2.png<>uid://nmem4pihqi3o::::res://Art/Sonic the Hedgehog/Character/Dead/Frame 3.png<>uid://blnjug2op4ifc::::res://Art/Sonic the Hedgehog/Character/Dead/Frame 4.png<>uid://77lllgslnf7j::::res://Art/Sonic the Hedgehog/Character/Dead/Frame 5.png<>uid://dkyrxcrfen4ij::::res://Art/Sonic the Hedgehog/Character/Jump-End/Layer 1.png<>uid://dam28ervwjhbb::::res://Art/Sonic the Hedgehog/Character/Jump-End/Layer 3.png<>uid://dtkdcq0stito2::::res://Art/Sonic the Hedgehog/Character/Jog/Layer 1.png<>uid://bmpxlmp0oovwy::::res://Art/Sonic the Hedgehog/Character/Jump-End/Layer 2.png<>uid://dmitaj62keq0e::::res://Art/Sonic the Hedgehog/Character/Jog/Layer 2.png<>uid://c76tagp3xthxw::::res://Art/Sonic the Hedgehog/Character/Run/Layer 1.png<>uid://qeagkyfr7j1w::::res://Art/Sonic the Hedgehog/Character/Jump/Layer 2.png<>uid://cv0cxpq8h7jpp::::res://Art/Sonic the Hedgehog/Character/Run/Layer 2.png<>uid://dpxtrwaevxfga::::res://Art/Sonic the Hedgehog/Character/Jog/Layer 3.png<>uid://bg6tx7njl5um6::::res://Art/Sonic the Hedgehog/Character/Jump/Layer 3.png<>uid://b740cfetxjlhs::::res://Art/Sonic the Hedgehog/Character/Jog/Layer 4.png<>uid://cis74nwoul1dr::::res://Art/Sonic the Hedgehog/Character/Run/Layer 3.png<>uid://bx1dwpxbv7g7e::::res://Art/Sonic the Hedgehog/Character/Run/Layer 4.png<>uid://5cg3mdkmkvva::::res://Art/Sonic the Hedgehog/Character/Jump/Layer 4.png<>uid://crni6baompcxv::::res://Art/Sonic the Hedgehog/Character/Jog/Layer 5.png<>uid://ck6ju13phkt21::::res://Art/Sonic the Hedgehog/Character/Jog/Layer 6.png<>uid://ct1osnbyrw4yp::::res://Art/Sonic the Hedgehog/Character/Run/Layer 5.png<>uid://dltaavjav8kvl::::res://Art/Sonic the Hedgehog/Character/Run/Layer 6.png<>uid://dh4ni6tx6hsq::::res://Art/Sonic the Hedgehog/Character/Jog/Layer 7.png<>uid://clu213h3ddm73::::res://Art/Sonic the Hedgehog/Character/Run/Layer 7.png<>uid://5shve65i5us7::::res://Art/Sonic the Hedgehog/Character/Jog/Layer 8.png<>uid://dhbea1ina6sv::::res://Art/Sonic the Hedgehog/Character/Jump/Layer 1.png<>uid://4k6gwjfng38k::::res://Character/GUI.tres<>res://Character/timer.gd<>uid://bf4ekyavihtos::::res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 8.png<>uid://cd3runc0owue4::::res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 9.png<>uid://gj5s7uvsi0l6::::res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 10.png<>uid://ms6ogvo8m5hy::::res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 11.png<>uid://caixfgolpslsb::::res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 12.png<>uid://dlwxwlcgcp5am::::res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 13.png<>uid://c3rxgoaw7go1e::::res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 14.png<>uid://dpwvo4tjhuxqp::::res://Art/Sonic the Hedgehog/Character/Run-Fast/Layer 15.png<>uid://duwrvp8lmogj0::::res://Sound/FX/ring.ogg<>uid://6awa70y4vryu::::res://Sound/FX/jump.ogg
+Run-Sheet.png::CompressedTexture2D::1860725176275185485::1728263441::1728435347::1::::<><>::
+timer.gd::GDScript::-1::1728440587::0::1::::<>Timer<>::
+::res://Levels/::1729559228
+camera_2d_2.gd::GDScript::-1::1729556430::0::1::::<>Node2D<>::
+forest.tres::TileSet::1683029545703631421::1729558740::0::1::::<><>::uid://cnb6vef35n3ad::::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png<>uid://klvhr8rk1xa6::::res://Art/Legacy-Fantasy - High Forest 2.3/Trees/Green-Tree.png
+remote_transform_2d.gd::GDScript::-1::1729553873::0::1::::<>RemoteTransform2D<>::
+test_level.tscn::PackedScene::8026915360369246657::1729559228::0::1::::<><>::uid://cqrqnlx2jpsop::::res://Art/Legacy-Fantasy - High Forest 2.3/Background/Background.png<>uid://x8jir3ptjvxd::::res://Levels/forest.tres<>uid://xxaoff7gwbrm::::res://Character/player.tscn<>res://Levels/camera_2d_2.gd<>uid://gkbaehtri0qw::::res://Ring.tscn
+::res://Sound/::1728434840
+::res://Sound/FX/::1729556916
+death.mp3::AudioStreamMP3::3034986918284540206::1728434792::1728434986::1::::<><>::
+goal_ring-enter.mp3::AudioStreamMP3::4129166206804042630::1728434786::1728434986::1::::<><>::
+goal_ring.mp3::AudioStreamMP3::2586266942337092585::1728434810::1728434986::1::::<><>::
+jump.ogg::AudioStreamOggVorbis::2177191647117230912::1729556880::1729556916::1::::<><>::
+rainbow_ring.mp3::AudioStreamMP3::6745697954451929659::1728434775::1728434986::1::::<><>::
+ring-drop.mp3::AudioStreamMP3::1424223123316781274::1728434744::1728434986::1::::<><>::
+ring.mp3::AudioStreamMP3::1568778702025239897::1729463270::1729463304::1::::<><>::
+ring.ogg::AudioStreamOggVorbis::8609525764323479731::1729555665::1729555760::1::::<><>::

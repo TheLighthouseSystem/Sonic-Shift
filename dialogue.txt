@@ -1,0 +1,2 @@
+func _on_NPC_interact():
+	show_dialogue("Hello! How can I help you?")

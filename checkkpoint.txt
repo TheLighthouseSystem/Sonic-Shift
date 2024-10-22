@@ -1,0 +1,4 @@
+# In a checkpoint or trigger script
+func _on_checkpoint_reached(new_respawn_position):
+	# Update the respawn position
+	$Sonic.respawn_position = new_respawn_position

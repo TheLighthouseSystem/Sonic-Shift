@@ -1,2 +1,7 @@
 res://Levels/test_level.tscn
+res://Levels/forest.tres
+res://Character/player.gd
+res://Levels/camera_2d_2.gd
 res://Character/player.tscn
+res://default_bus_layout.tres
+res://Levels/test_level/platform_a.tscn

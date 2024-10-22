@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://4k6gwjfng38k"]
+
+[ext_resource type="FontFile" uid="uid://6mcxh74r0hpl" path="res://Character/PixgamerRegular-OVD6A.ttf" id="1_6utrw"]
+
+[resource]
+default_font = ExtResource("1_6utrw")
+default_font_size = 8

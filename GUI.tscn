@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxrjvj1h8anif"]
+
+[ext_resource type="Theme" uid="uid://4k6gwjfng38k" path="res://Character/GUI.tres" id="1_eh131"]
+
+[sub_resource type="GDScript" id="GDScript_rqoi1"]
+script/source = "# In the GUI.gd script
+extends CanvasLayer
+
+@onready var ring_count_label: RichTextLabel = $RingCountLabel
+
+
+func _ready():
+	pass
+	# Connect the player's ring count to the label
+	#get_parent().connect(\"ring_count_changed\", update_ring_count_label)
+
+func update_ring_count_label(new_count):
+	ring_count_label.text = \"RINGS: \" + str(new_count)
+"
+
+[node name="Gui" type="CanvasLayer"]
+script = SubResource("GDScript_rqoi1")
+
+[node name="RingCountLabel" type="RichTextLabel" parent="."]
+z_index = 4096
+offset_right = 82.0
+offset_bottom = 40.0
+theme = ExtResource("1_eh131")
+theme_override_colors/font_selected_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+text = "RINGS: 0"
+
+[node name="GameOverLayer" type="CanvasLayer" parent="."]
+
+[node name="GameOverScreen" type="Control" parent="GameOverLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme = ExtResource("1_eh131")
+
+[node name="Label" type="Label" parent="GameOverLayer/GameOverScreen"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Game Over"
+
+[node name="Button" type="Button" parent="GameOverLayer/GameOverScreen"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0

@@ -1,0 +1,50 @@
+[gd_scene load_steps=8 format=3 uid="uid://gkbaehtri0qw"]
+
+[ext_resource type="Script" path="res://ring.gd" id="1_76br8"]
+[ext_resource type="Texture2D" uid="uid://b73jj3wuvlydm" path="res://Art/Rings/small1.png" id="2_s6ddl"]
+[ext_resource type="Texture2D" uid="uid://cmay5p6gddsky" path="res://Art/Rings/small2.png" id="3_rg634"]
+[ext_resource type="Texture2D" uid="uid://dxgjwubryp0gc" path="res://Art/Rings/small3.png" id="4_nclje"]
+[ext_resource type="Texture2D" uid="uid://c7rpp55362a02" path="res://Art/Rings/small4.png" id="5_s7l03"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_372fy"]
+radius = 5.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rkrs7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_s6ddl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_rg634")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nclje")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_s7l03")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Ring" type="Area2D" groups=["collectible"]]
+z_index = 2
+collision_layer = 7
+script = ExtResource("1_76br8")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_372fy")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+light_mask = 3
+visibility_layer = 7
+scale = Vector2(0.15, 0.15)
+sprite_frames = SubResource("SpriteFrames_rkrs7")
+frame_progress = 0.0219103
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[connection signal="ring_collected" from="." to="." method="_on_ring_collected"]
